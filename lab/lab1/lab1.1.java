@@ -1,5 +1,3 @@
-Lab1.1
-
 package lab1_1;
 import java.util.Scanner;
 public class lab1_1 {
