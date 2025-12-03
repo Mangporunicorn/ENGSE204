@@ -20,8 +20,8 @@ public class lab2_1 {
 
         Student studentObject = new Student(studentId, name);
 
-        System.out.println(studentObject.studentId);
-        System.out.println(studentObject.name);
+        System.out.println("ID: "+studentObject.studentId);
+		System.out.println("Name: "+studentObject.name);
 
         input.close();
     }
