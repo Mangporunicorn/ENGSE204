@@ -1,14 +1,12 @@
 import java.util.Scanner;
-
 class User {
 
     private String username;
 
-    // Constructor 
     public User(String username) {
         this.username = username;
     }
-
+    
     public String getUsername() {
         return username;
     }
@@ -21,8 +19,9 @@ public class Main {
 
         String name = sc.nextLine();
 
+     
         User u = new User(name);
-
+        
         System.out.println(u.getUsername());
     }
 }
